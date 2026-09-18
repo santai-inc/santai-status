@@ -1,0 +1,45 @@
+name: Update uptime history
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: upptime-data
+  cancel-in-progress: false
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: master
+          fetch-depth: 0
+      - name: Record response times
+        uses: upptime/uptime-monitor@v1.44.0
+        with:
+          command: response-time
+        env:
+          GH_PAT: ${{ github.token }}
+          SECRETS_CONTEXT: '{}'
+      - name: Refresh summary
+        uses: upptime/uptime-monitor@v1.44.0
+        with:
+          command: readme
+        env:
+          GH_PAT: ${{ github.token }}
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+      - name: Generate graphs
+        uses: upptime/uptime-monitor@v1.44.0
+        with:
+          command: graphs
+        env:
+          GH_PAT: ${{ github.token }}

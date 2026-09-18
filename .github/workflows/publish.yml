@@ -1,0 +1,43 @@
+name: Publish status page
+on:
+  push:
+    branches: [master]
+    paths: [".upptimerc.yml", "assets/**", ".github/workflows/publish.yml"]
+  schedule:
+    - cron: "27 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: master
+      - name: Build Upptime website
+        uses: upptime/uptime-monitor@v1.44.0
+        with:
+          command: site
+        env:
+          GH_PAT: ${{ github.token }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/status-page/__sapper__/export
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
