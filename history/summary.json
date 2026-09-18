@@ -4,19 +4,19 @@
     "url": "https://hub.sant.ai",
     "icon": "https://icons.duckduckgo.com/ip3/hub.sant.ai.ico",
     "slug": "hub-website",
-    "status": "down",
-    "uptime": "99.74%",
-    "uptimeDay": "99.74%",
-    "uptimeWeek": "99.74%",
-    "uptimeMonth": "99.74%",
-    "uptimeYear": "99.74%",
-    "time": 975,
-    "timeDay": 975,
-    "timeWeek": 975,
-    "timeMonth": 975,
-    "timeYear": 975,
+    "status": "up",
+    "uptime": "86.43%",
+    "uptimeDay": "86.43%",
+    "uptimeWeek": "86.43%",
+    "uptimeMonth": "86.43%",
+    "uptimeYear": "86.43%",
+    "time": 854,
+    "timeDay": 854,
+    "timeWeek": 854,
+    "timeMonth": 854,
+    "timeYear": 854,
     "dailyMinutesDown": {
-      "2026-09-18": 1
+      "2026-09-18": 49
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://hub.sant.ai/health",
     "icon": "https://icons.duckduckgo.com/ip3/hub.sant.ai.ico",
     "slug": "hub-api",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
-    "time": 4981,
-    "timeDay": 4981,
-    "timeWeek": 4981,
-    "timeMonth": 4981,
-    "timeYear": 4981,
+    "status": "up",
+    "uptime": "86.63%",
+    "uptimeDay": "86.63%",
+    "uptimeWeek": "86.63%",
+    "uptimeMonth": "86.63%",
+    "uptimeYear": "86.63%",
+    "time": 3766,
+    "timeDay": 3766,
+    "timeWeek": 3766,
+    "timeMonth": 3766,
+    "timeYear": 3766,
     "dailyMinutesDown": {
-      "2026-09-18": 0
+      "2026-09-18": 49
     }
   }
 ]
