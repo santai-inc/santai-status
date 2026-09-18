@@ -23,6 +23,11 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: master
+      - name: Ensure maintenance label exists
+        if: github.event_name != 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh label create maintenance --color 737373 --description "Scheduled maintenance window" --force
       - name: Check website and API
         uses: upptime/uptime-monitor@v1.44.0
         with:
