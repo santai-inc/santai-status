@@ -1,37 +1,16 @@
-name: Monitor availability
+name: Actions queue diagnostic
 on:
-  schedule:
-    - cron: "1,6,11,16,21,26,31,36,41,46,51,56 * * * *"
   push:
-    branches: [master]
-    paths: [".upptimerc.yml", ".github/workflows/monitor.yml"]
+    branches: [fix/actions-queue]
+    paths: [".github/workflows/monitor.yml"]
   workflow_dispatch:
 
-permissions:
-  contents: write
-  issues: write
-
-concurrency:
-  group: upptime-data
-  cancel-in-progress: false
+permissions: {}
 
 jobs:
-  monitor:
+  runner-check:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 2
     steps:
-      - uses: actions/checkout@v6
-        with:
-          ref: master
-      - name: Ensure maintenance label exists
-        if: github.event_name != 'schedule'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh label create maintenance --color 737373 --description "Scheduled maintenance window" --force
-      - name: Check website and API
-        uses: upptime/uptime-monitor@v1.44.0
-        with:
-          command: update
-        env:
-          GH_PAT: ${{ github.token }}
-          SECRETS_CONTEXT: '{}'
+      - name: Confirm GitHub can start a job
+        run: date -u
