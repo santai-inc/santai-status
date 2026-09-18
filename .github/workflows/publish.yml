@@ -4,7 +4,7 @@ on:
     branches: [master]
     paths: [".upptimerc.yml", "assets/**", ".github/workflows/publish.yml"]
   schedule:
-    - cron: "27 * * * *"
+    - cron: "43 * * * *"
   workflow_dispatch:
 
 permissions:
