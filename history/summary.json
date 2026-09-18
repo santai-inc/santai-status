@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Hub website",
+    "url": "https://hub.sant.ai",
+    "icon": "https://icons.duckduckgo.com/ip3/hub.sant.ai.ico",
+    "slug": "hub-website",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 273,
+    "timeDay": 273,
+    "timeWeek": 273,
+    "timeMonth": 273,
+    "timeYear": 273,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Hub API",
+    "url": "https://hub.sant.ai/health",
+    "icon": "https://icons.duckduckgo.com/ip3/hub.sant.ai.ico",
+    "slug": "hub-api",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 151,
+    "timeDay": 151,
+    "timeWeek": 151,
+    "timeMonth": 151,
+    "timeYear": 151,
+    "dailyMinutesDown": {}
+  }
+]
