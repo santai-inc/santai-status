@@ -19,10 +19,10 @@ skipTopicsUpdate: true
 skipHomepageUpdate: true
 
 status-website:
-  baseUrl: /santai-status
+  cname: status.sant.ai
   name: Santai Hub Status
   logoUrl: https://raw.githubusercontent.com/santai-inc/santai-status/HEAD/assets/logo.svg
-  themeUrl: https://santai-inc.github.io/santai-status/santai.css
+  themeUrl: https://status.sant.ai/santai.css
   introTitle: "**Santai Hub** service status"
   introMessage: Availability checks for the Hub website and API, scheduled every five minutes. Checks may be delayed. These checks do not verify individual features such as editing or chat. History begins when monitoring starts.
   navbar:
