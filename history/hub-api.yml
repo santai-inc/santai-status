@@ -1,7 +1,7 @@
 url: https://hub.sant.ai/health
-status: down
-code: 502
-responseTime: 14515
-lastUpdated: 2026-09-18T18:25:40.847Z
+status: up
+code: 200
+responseTime: 121
+lastUpdated: 2026-09-18T19:14:16.656Z
 startTime: 2026-09-18T13:10:47.691Z
 generator: Upptime <https://github.com/upptime/upptime>
