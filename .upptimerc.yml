@@ -24,7 +24,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/santai-inc/santai-status/HEAD/assets/logo.svg
   themeUrl: https://status.sant.ai/santai.css
   introTitle: "**Santai Hub** service status"
-  introMessage: Availability checks for the Hub website and API, scheduled every five minutes. Checks may be delayed. These checks do not verify individual features such as editing or chat. History begins when monitoring starts.
+  introMessage: Availability checks for the Hub website and API. These checks do not verify individual features such as editing or chat. History begins when monitoring starts.
   navbar:
     - title: Status
       href: /
