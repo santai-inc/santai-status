@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/hub.sant.ai.ico",
     "slug": "hub-website",
     "status": "up",
-    "uptime": "99.82%",
+    "uptime": "99.83%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.82%",
-    "uptimeYear": "99.82%",
-    "time": 346,
-    "timeDay": 307,
-    "timeWeek": 311,
-    "timeMonth": 346,
-    "timeYear": 346,
+    "uptimeMonth": "99.83%",
+    "uptimeYear": "99.83%",
+    "time": 342,
+    "timeDay": 193,
+    "timeWeek": 294,
+    "timeMonth": 342,
+    "timeYear": 342,
     "dailyMinutesDown": {
       "2026-09-18": 49
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.83%",
     "uptimeYear": "99.83%",
-    "time": 420,
-    "timeDay": 169,
-    "timeWeek": 163,
-    "timeMonth": 420,
-    "timeYear": 420,
+    "time": 414,
+    "timeDay": 78,
+    "timeWeek": 157,
+    "timeMonth": 414,
+    "timeYear": 414,
     "dailyMinutesDown": {
       "2026-09-18": 49
     }
