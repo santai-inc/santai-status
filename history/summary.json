@@ -4,19 +4,20 @@
     "url": "https://hub.sant.ai",
     "icon": "https://icons.duckduckgo.com/ip3/hub.sant.ai.ico",
     "slug": "hub-website",
-    "status": "up",
+    "status": "down",
     "uptime": "99.90%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.90%",
     "time": 341,
-    "timeDay": 282,
+    "timeDay": 257,
     "timeWeek": 260,
-    "timeMonth": 328,
+    "timeMonth": 329,
     "timeYear": 341,
     "dailyMinutesDown": {
-      "2026-09-18": 49
+      "2026-09-18": 49,
+      "2026-10-23": 1
     }
   },
   {
@@ -31,9 +32,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.90%",
     "time": 320,
-    "timeDay": 169,
+    "timeDay": 189,
     "timeWeek": 189,
-    "timeMonth": 211,
+    "timeMonth": 212,
     "timeYear": 320,
     "dailyMinutesDown": {
       "2026-09-18": 49
