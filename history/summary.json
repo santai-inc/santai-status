@@ -4,20 +4,21 @@
     "url": "https://hub.sant.ai",
     "icon": "https://icons.duckduckgo.com/ip3/hub.sant.ai.ico",
     "slug": "hub-website",
-    "status": "up",
+    "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "99.99%",
     "uptimeYear": "99.93%",
-    "time": 331,
-    "timeDay": 304,
-    "timeWeek": 317,
-    "timeMonth": 330,
-    "timeYear": 331,
+    "time": 424,
+    "timeDay": 4119,
+    "timeWeek": 974,
+    "timeMonth": 483,
+    "timeYear": 424,
     "dailyMinutesDown": {
       "2026-09-18": 49,
-      "2026-10-23": 2
+      "2026-10-23": 2,
+      "2026-11-12": 1
     }
   },
   {
@@ -25,19 +26,20 @@
     "url": "https://hub.sant.ai/health",
     "icon": "https://icons.duckduckgo.com/ip3/hub.sant.ai.ico",
     "slug": "hub-api",
-    "status": "up",
+    "status": "down",
     "uptime": "99.94%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.94%",
-    "time": 267,
-    "timeDay": 151,
-    "timeWeek": 161,
-    "timeMonth": 192,
-    "timeYear": 267,
+    "time": 363,
+    "timeDay": 4095,
+    "timeWeek": 841,
+    "timeMonth": 352,
+    "timeYear": 363,
     "dailyMinutesDown": {
-      "2026-09-18": 49
+      "2026-09-18": 49,
+      "2026-11-12": 0
     }
   }
 ]
